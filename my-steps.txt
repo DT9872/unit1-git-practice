@@ -130,10 +130,20 @@ git add .
 git status
 
 ### Step 5
-git commit -m “unit1-git-practice”
+git init
+git add .
+git commit -m 'unit1-git-practice'
+git remote add origin https://github.com/DT9872/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 ### Step 6
-
+touch menu.txt
+ls
+git status
+git add .
+git commit -m 'starting a menu'
+git push
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
